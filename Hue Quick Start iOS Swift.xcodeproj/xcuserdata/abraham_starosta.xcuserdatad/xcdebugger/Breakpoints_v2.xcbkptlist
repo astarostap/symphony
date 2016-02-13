@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hue Quick Start iOS Swift/ControlLightsViewController.swift"
+            timestampString = "476929555.931047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "randomizeColoursOfConnectLights(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hue Quick Start iOS Swift/ControlLightsViewController.swift"
+            timestampString = "476929827.093961"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "randomizeColoursOfConnectLights(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hue Quick Start iOS Swift/ControlLightsViewController.swift"
+            timestampString = "476946420.526047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "randomizeColoursOfConnectLights(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hue_Quick_Start_iOS_Swift.ControlLightsViewController.randomizeColoursOfConnectLights (Hue_Quick_Start_iOS_Swift.ControlLightsViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "Hue Quick Start iOS Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abraham_starosta/Documents/COSAS%20MIAS/treehacks2016/Hue-Quick-Start-iOS-Swift/Hue%20Quick%20Start%20iOS%20Swift/ControlLightsViewController.swift"
+                  timestampString = "476930447.199671"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "2228">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hue_Quick_Start_iOS_Swift.ControlLightsViewController.(randomizeColoursOfConnectLights (Hue_Quick_Start_iOS_Swift.ControlLightsViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1)"
+                  moduleName = "Hue Quick Start iOS Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abraham_starosta/Documents/COSAS%20MIAS/treehacks2016/Hue-Quick-Start-iOS-Swift/Hue%20Quick%20Start%20iOS%20Swift/ControlLightsViewController.swift"
+                  timestampString = "476930447.19992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
