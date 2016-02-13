@@ -21,6 +21,7 @@
 		1782C5811C6A85C900C067B2 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C5801C6A85C900C067B2 /* ParseUI.framework */; };
 		1782C5881C6A85FC00C067B2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C5861C6A85FC00C067B2 /* libsqlite3.tbd */; };
 		1782C5891C6A85FC00C067B2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C5871C6A85FC00C067B2 /* libz.tbd */; };
+		B23B13311C6F3F63002C8E8D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B13301C6F3F63002C8E8D /* MenuViewController.swift */; };
 		DE625B571A7078D8004296E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625B561A7078D8004296E9 /* AppDelegate.swift */; };
 		DE625B5F1A7078D8004296E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE625B5D1A7078D8004296E9 /* Main.storyboard */; };
 		DE625B611A7078D8004296E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE625B601A7078D8004296E9 /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		1782C5801C6A85C900C067B2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		1782C5861C6A85FC00C067B2 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1782C5871C6A85FC00C067B2 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B23B13301C6F3F63002C8E8D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		DE625B511A7078D8004296E9 /* Hue Quick Start iOS Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hue Quick Start iOS Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE625B551A7078D8004296E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE625B561A7078D8004296E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				DE625B541A7078D8004296E9 /* Supporting Files */,
 				DE625B9E1A707BC3004296E9 /* Hue Quick Start iOS Swift-Bridging-Header.h */,
 				DE625BB81A707E59004296E9 /* ControlLightsViewController.swift */,
+				B23B13301C6F3F63002C8E8D /* MenuViewController.swift */,
 				DE67127C1A79B1B500ED6035 /* BridgePushLinkViewController.swift */,
 				DE6712801A79B7A300ED6035 /* BridgeSelectionViewController.swift */,
 				DE6712821A79B8EE00ED6035 /* LoadingViewController.swift */,
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE625BB41A707BE7004296E9 /* DDLog.m in Sources */,
+				B23B13311C6F3F63002C8E8D /* MenuViewController.swift in Sources */,
 				DE625BB21A707BE7004296E9 /* DDASLLogger.m in Sources */,
 				DE625BB91A707E59004296E9 /* ControlLightsViewController.swift in Sources */,
 				DE625B571A7078D8004296E9 /* AppDelegate.swift in Sources */,

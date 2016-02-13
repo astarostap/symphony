@@ -37,6 +37,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="p7R-pB-VLv" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="EIg-Mj-SYO"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="2fv-TT-E9i" style="IBUITableViewCellStyleDefault" id="5P7-DS-5CH">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -57,6 +60,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="lI7-Hs-0li" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ttU-IH-PFA"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="wwk-OD-65T" style="IBUITableViewCellStyleDefault" id="hCt-Th-fLz">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -91,6 +97,83 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrA-MK-Uoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="425.5" y="-436.5"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="sv0-xt-NBn">
+            <objects>
+                <viewController id="TAr-9X-Pw6" customClass="MenuViewController" customModule="Hue_Quick_Start_iOS_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KjX-gk-NCT"/>
+                        <viewControllerLayoutGuide type="bottom" id="kpO-kf-hdX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XuL-pu-py2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-ba-yOB">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bd2-bm-4K9">
+                                <rect key="frame" x="156" y="235" width="129" height="130"/>
+                                <animations/>
+                                <state key="normal" image="bulb1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbg-g9-v07">
+                                <rect key="frame" x="313" y="235" width="129" height="130"/>
+                                <animations/>
+                                <state key="normal" image="strip1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkG-k4-qhY">
+                                <rect key="frame" x="156" y="391" width="129" height="130"/>
+                                <animations/>
+                                <state key="normal" image="bulb2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNU-7o-JON">
+                                <rect key="frame" x="313" y="391" width="129" height="130"/>
+                                <animations/>
+                                <state key="normal" image="strip2"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symphony" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX1-yh-ej9">
+                                <rect key="frame" x="193" y="82" width="215" height="46"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="j3S-T3-VJa"/>
+                                    <constraint firstAttribute="height" constant="46" id="zGn-nO-o4c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KOM-ba-yOB" firstAttribute="leading" secondItem="XuL-pu-py2" secondAttribute="leading" id="1xJ-h1-Mwj"/>
+                            <constraint firstItem="bkG-k4-qhY" firstAttribute="centerX" secondItem="bd2-bm-4K9" secondAttribute="centerX" id="2pt-pT-vJ4"/>
+                            <constraint firstItem="BX1-yh-ej9" firstAttribute="top" secondItem="KjX-gk-NCT" secondAttribute="bottom" constant="18" id="3E3-pH-IPS"/>
+                            <constraint firstItem="XNU-7o-JON" firstAttribute="centerY" secondItem="bkG-k4-qhY" secondAttribute="centerY" id="6dA-6E-UK4"/>
+                            <constraint firstItem="Xbg-g9-v07" firstAttribute="centerY" secondItem="bd2-bm-4K9" secondAttribute="centerY" id="GS9-ss-g3t"/>
+                            <constraint firstItem="BX1-yh-ej9" firstAttribute="centerX" secondItem="XuL-pu-py2" secondAttribute="centerX" id="OSG-26-znf"/>
+                            <constraint firstItem="KOM-ba-yOB" firstAttribute="bottom" secondItem="kpO-kf-hdX" secondAttribute="top" id="RIv-nR-MUB"/>
+                            <constraint firstItem="bd2-bm-4K9" firstAttribute="centerX" secondItem="XuL-pu-py2" secondAttribute="centerX" constant="-79.5" id="a4X-A1-U6G"/>
+                            <constraint firstItem="KOM-ba-yOB" firstAttribute="top" secondItem="XuL-pu-py2" secondAttribute="top" id="aXh-wy-aBU"/>
+                            <constraint firstAttribute="trailing" secondItem="KOM-ba-yOB" secondAttribute="trailing" id="eZ9-PV-3wf"/>
+                            <constraint firstItem="Xbg-g9-v07" firstAttribute="leading" secondItem="bd2-bm-4K9" secondAttribute="trailing" constant="28" id="hac-FS-lcQ"/>
+                            <constraint firstItem="XNU-7o-JON" firstAttribute="leading" secondItem="bkG-k4-qhY" secondAttribute="trailing" constant="28" id="qSB-0C-NAq"/>
+                            <constraint firstItem="XNU-7o-JON" firstAttribute="centerX" secondItem="Xbg-g9-v07" secondAttribute="centerX" id="xk3-Wm-yKg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rg0-6v-sOt">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="bBE-WJ-JBa"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="bBE-WJ-JBa" id="hOd-lV-lu9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fwr-4B-12i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1864" y="-463"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="nSL-p1-thr">
@@ -318,7 +401,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ba-mU-1x2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969.5" y="304.5"/>
+            <point key="canvasLocation" x="965.5" y="391.5"/>
         </scene>
         <!--Bridge Selection View Controller-->
         <scene sceneID="WNe-tM-m7P">
@@ -528,11 +611,38 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8a9-ra-cNu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="425.5" y="304.5"/>
+            <point key="canvasLocation" x="434.5" y="391.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2rl-IU-3FT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p7R-pB-VLv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gfQ-s2-e4z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TAr-9X-Pw6" kind="relationship" relationship="rootViewController" id="uAF-jT-28f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2oO-fr-71s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173" y="-470"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background_gradient" width="375" height="667"/>
+        <image name="bulb1" width="129" height="130"/>
+        <image name="bulb2" width="129" height="129"/>
         <image name="menu" width="24" height="22"/>
         <image name="press_smartbridge" width="516" height="475"/>
+        <image name="strip1" width="129" height="129"/>
+        <image name="strip2" width="130" height="129"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ttU-IH-PFA"/>
+    </inferredMetricsTieBreakers>
 </document>
