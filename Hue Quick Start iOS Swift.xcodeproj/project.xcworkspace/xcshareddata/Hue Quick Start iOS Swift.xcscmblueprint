@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F33F9ECEC8F5246665216F5B8E2ECB72B7263C4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F33F9ECEC8F5246665216F5B8E2ECB72B7263C4A" : 0,
+    "ED0FEE4B06950080C829482BBA4951D36F8B3430" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97F10B9F-959F-4E68-AB01-661305F4DF6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F33F9ECEC8F5246665216F5B8E2ECB72B7263C4A" : "symphony\/",
+    "ED0FEE4B06950080C829482BBA4951D36F8B3430" : "Hue%20Quick%20Start%20iOS%20Swift"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hue Quick Start iOS Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hue Quick Start iOS Swift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kevindew\/Hue-Quick-Start-iOS-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED0FEE4B06950080C829482BBA4951D36F8B3430"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:astarostap\/symphony.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F33F9ECEC8F5246665216F5B8E2ECB72B7263C4A"
+    }
+  ]
+}
