@@ -40,7 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BridgeSelectionViewContro
     phHueSdk.enableLogging(true)
     let notificationManager = PHNotificationManager.defaultManager()
     
-    navigationController = window!.rootViewController as? UINavigationController
+    //navigationController = window!.rootViewController as? UINavigationController
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    navigationController = storyboard.instantiateViewControllerWithIdentifier("navigationController") as? UINavigationController
     
     // The SDK will send the following notifications in response to events:
     //

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175634511C6D66CA00F0DEAB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1756344F1C6D66CA00F0DEAB /* SWRevealViewController.m */; };
+		175634551C6F22A200F0DEAB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175634541C6F22A200F0DEAB /* SWRevealViewController.m */; };
 		1782C5741C6A858C00C067B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C56C1C6A858C00C067B2 /* SystemConfiguration.framework */; };
 		1782C5751C6A858C00C067B2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C56D1C6A858C00C067B2 /* StoreKit.framework */; };
 		1782C5761C6A858C00C067B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1782C56E1C6A858C00C067B2 /* Security.framework */; };
@@ -41,9 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1756344E1C6D66CA00F0DEAB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		1756344F1C6D66CA00F0DEAB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		175634501C6D66CA00F0DEAB /* SiembraAlpha-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SiembraAlpha-Bridging-Header.h"; sourceTree = "<group>"; };
+		175634531C6F22A200F0DEAB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		175634541C6F22A200F0DEAB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		175634561C6F231D00F0DEAB /* bridging-header-file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header-file.h"; sourceTree = "<group>"; };
 		1782C56C1C6A858C00C067B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1782C56D1C6A858C00C067B2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1782C56E1C6A858C00C067B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -111,16 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		175634521C6D66D600F0DEAB /* SWRevealViewController */ = {
-			isa = PBXGroup;
-			children = (
-				1756344E1C6D66CA00F0DEAB /* SWRevealViewController.h */,
-				1756344F1C6D66CA00F0DEAB /* SWRevealViewController.m */,
-				175634501C6D66CA00F0DEAB /* SiembraAlpha-Bridging-Header.h */,
-			);
-			name = SWRevealViewController;
-			sourceTree = "<group>";
-		};
 		1782C56B1C6A855000C067B2 /* MyFrameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,8 +153,10 @@
 		DE625B531A7078D8004296E9 /* Hue Quick Start iOS Swift */ = {
 			isa = PBXGroup;
 			children = (
-				175634521C6D66D600F0DEAB /* SWRevealViewController */,
 				DE625B561A7078D8004296E9 /* AppDelegate.swift */,
+				175634531C6F22A200F0DEAB /* SWRevealViewController.h */,
+				175634541C6F22A200F0DEAB /* SWRevealViewController.m */,
+				175634561C6F231D00F0DEAB /* bridging-header-file.h */,
 				DE625B5D1A7078D8004296E9 /* Main.storyboard */,
 				DE625B601A7078D8004296E9 /* Images.xcassets */,
 				DE625B621A7078D8004296E9 /* LaunchScreen.xib */,
@@ -303,7 +295,7 @@
 				DE8575771A7B0A0100FFED44 /* README.md in Sources */,
 				DE625BB71A707BE7004296E9 /* DispatchQueueLogFormatter.m in Sources */,
 				DE625BB11A707BE7004296E9 /* DDAbstractDatabaseLogger.m in Sources */,
-				175634511C6D66CA00F0DEAB /* SWRevealViewController.m in Sources */,
+				175634551C6F22A200F0DEAB /* SWRevealViewController.m in Sources */,
 				DE625BB51A707BE7004296E9 /* DDTTYLogger.m in Sources */,
 				DE6712811A79B7A300ED6035 /* BridgeSelectionViewController.swift in Sources */,
 				DE625BB31A707BE7004296E9 /* DDFileLogger.m in Sources */,

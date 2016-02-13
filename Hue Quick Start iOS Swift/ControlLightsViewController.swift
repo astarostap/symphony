@@ -14,6 +14,7 @@ class ControlLightsViewController: UIViewController {
     
   let maxHue = 65535
   
+  @IBOutlet var Open: UIBarButtonItem!
   @IBOutlet var bridgeMacLabel: UILabel?
   @IBOutlet var bridgeIpLabel: UILabel?
   @IBOutlet var bridgeLastHeartbeatLabel: UILabel?
@@ -21,7 +22,8 @@ class ControlLightsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    Open.target = self.revealViewController()
+    Open.action = Selector("revealToggle:")
     let notificationManager = PHNotificationManager.defaultManager()
     // Register for the local heartbeat notifications
     notificationManager.registerObject(self, withSelector: "localConnection", forNotification: LOCAL_CONNECTION_NOTIFICATION)
@@ -30,7 +32,7 @@ class ControlLightsViewController: UIViewController {
     
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Bridge", style: UIBarButtonItemStyle.Plain, target: self, action: "findNewBridgeButtonAction")
     
-    navigationItem.title = "QuickStart"
+    navigationItem.title = "Symphony"
     
     noLocalConnection()
     
@@ -97,6 +99,7 @@ class ControlLightsViewController: UIViewController {
     
     for lightVal in cache!.lights!.values {
       let light = lightVal as! PHLight
+    
       // don't update state of non-reachable lights
       if light.lightState!.reachable == 0 {
         continue
@@ -108,10 +111,11 @@ class ControlLightsViewController: UIViewController {
         // Lux bulbs just get a random brightness
         lightState.brightness = Int(arc4random()) % 254
       } else {
+        lightState.on = true
         lightState.hue = Int(arc4random()) % maxHue
         lightState.brightness = 254
         lightState.saturation = 254
-        lightState.effect = EFFECT_NONE
+        lightState.effect = EFFECT_COLORLOOP
 //        lightState.alert = ALERT_LSELECT
 //        bridgeSendAPI.
       }
